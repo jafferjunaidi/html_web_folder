@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Card&Modal</title>
+<style>
+  .card img:hover
+  {
+    transform: scale(1.1);
+    transition: 1s
+  }
+  .card
+  {
+    overflow: hidden;
+  }
+</style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row mt-3">
+            <div class="col">
+                <div class="card border border-info border-5">
+                <img src="/Images/watch 1.jpg" class="card-img-top img-fluid" style="height: 320px;" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Classic Men Watch</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">About this product</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+                <div class="card border border-secondary border-5">
+                    <img src="/Images/watch 3.jpg" class="card-img-top img-fluid" style="height: 320px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Classic Men Watch</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">About this product</a>
+                    </div>
+                  </div>
+             </div>
+
+            <div class="col">
+                <div class="card border border-warning border-5">
+                    <img src="/Images/watch 4.jpg" class="card-img-top img-fluid" style="height: 320px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Classic Men Watch</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">About this product</a>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+
+<hr>
+
+        <div class="row">
+            
+        <div class="col">
+            <div class="card bg-dark text-white">
+                <img src="/Images/shoes1.jfif" class="card-img" height="300" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Shoes for men</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                  <br>
+                  <a href="#" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop">About this product</a>
+                </div>
+              </div>
+        </div>
+        
+        <div class="col">
+            <div class="card bg-dark text-dark">
+                <img src="/Images/shoes2.jfif" class="card-img" height="300" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Shoes for men</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                  <br>
+                  <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">About this product</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col">
+            <div class="card bg-dark text-white">
+                <img src="/Images/shoes5.jfif" class="card-img" height="300" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Shoes for men</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                  <br>
+                  <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">About this product</a>
+                </div>
+              </div>
+        </div>
+
+       </div>
+
+    </div>
+
+
+    <!-- Button trigger modal
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button> -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel1">Classic Men Watch</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="/Images/watch 1.jpg" style="height: 320px;" class="img-fluid" alt="">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minus autem, deleniti, asperiores itaque rem laboriosam ratione magni dolorum eligendi officiis quas laudantium recusandae molestias aspernatur, voluptatum nostrum ducimus dolorem facilis blanditiis non. Fugit, fugiat corrupti. Voluptatibus impedit et at laboriosam iste commodi ab sed ea suscipit. Libero fugiat optio ipsa, sint architecto eveniet vitae ducimus nemo perspiciatis omnis dolorum exercitationem neque in suscipit corporis quaerat aliquid non aperiam dolores vero? Totam, praesentium! Ea, exercitationem dignissimos alias facere voluptas, at impedit repellendus incidunt eos ad a quas? Delectus, ipsum nobis praesentium iste ipsam quaerat vitae rem necessitatibus corrupti? Quibusdam velit aperiam sequi, alias qui aliquid, placeat corrupti error cupiditate accusantium asperiores corporis ipsam culpa esse odio quas? Reprehenderit, soluta sapiente cumque repellat voluptatum sint saepe nulla ipsa magni perspiciatis odio. Itaque enim ab incidunt consequatur cupiditate molestiae quis placeat iure ratione necessitatibus, dignissimos blanditiis? Modi, voluptate nulla voluptatum numquam reprehenderit animi aspernatur. Ipsa nihil quis fugit officia molestias molestiae modi libero, iure facere temporibus harum nulla expedita aliquid unde dolore rem omnis asperiores dolores mollitia, voluptates hic deserunt incidunt. Quos pariatur libero voluptate sequi dolores quaerat nesciunt, non ipsam ipsum a suscipit enim optio at, repellendus vero dolorem animi nulla?
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- watch 1 modal close -->
+
+ <!-- Modal -->
+ <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel2">Classic Men Watch</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="/Images/watch 3.jpg" style="height: 320px;" class="img-fluid" alt="">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minus autem, deleniti, asperiores itaque rem laboriosam ratione magni dolorum eligendi officiis quas laudantium recusandae molestias aspernatur, voluptatum nostrum ducimus dolorem facilis blanditiis non. Fugit, fugiat corrupti. Voluptatibus impedit et at laboriosam iste commodi ab sed ea suscipit. Libero fugiat optio ipsa, sint architecto eveniet vitae ducimus nemo perspiciatis omnis dolorum exercitationem neque in suscipit corporis quaerat aliquid non aperiam dolores vero? Totam, praesentium! Ea, exercitationem dignissimos alias facere voluptas, at impedit repellendus incidunt eos ad a quas? Delectus, ipsum nobis praesentium iste ipsam quaerat vitae rem necessitatibus corrupti? Quibusdam velit aperiam sequi, alias qui aliquid, placeat corrupti error cupiditate accusantium asperiores corporis ipsam culpa esse odio quas? Reprehenderit, soluta sapiente cumque repellat voluptatum sint saepe nulla ipsa magni perspiciatis odio. Itaque enim ab incidunt consequatur cupiditate molestiae quis placeat iure ratione necessitatibus, dignissimos blanditiis? Modi, voluptate nulla voluptatum numquam reprehenderit animi aspernatur. Ipsa nihil quis fugit officia molestias molestiae modi libero, iure facere temporibus harum nulla expedita aliquid unde dolore rem omnis asperiores dolores mollitia, voluptates hic deserunt incidunt. Quos pariatur libero voluptate sequi dolores quaerat nesciunt, non ipsam ipsum a suscipit enim optio at, repellendus vero dolorem animi nulla?
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- watch 3 modal close -->
+
+ <!-- Modal -->
+ <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel3">Classic Men Watch</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="/Images/watch 4.jpg" style="height: 320px;" class="img-fluid" alt="">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui minus autem, deleniti, asperiores itaque rem laboriosam ratione magni dolorum eligendi officiis quas laudantium recusandae molestias aspernatur, voluptatum nostrum ducimus dolorem facilis blanditiis non. Fugit, fugiat corrupti. Voluptatibus impedit et at laboriosam iste commodi ab sed ea suscipit. Libero fugiat optio ipsa, sint architecto eveniet vitae ducimus nemo perspiciatis omnis dolorum exercitationem neque in suscipit corporis quaerat aliquid non aperiam dolores vero? Totam, praesentium! Ea, exercitationem dignissimos alias facere voluptas, at impedit repellendus incidunt eos ad a quas? Delectus, ipsum nobis praesentium iste ipsam quaerat vitae rem necessitatibus corrupti? Quibusdam velit aperiam sequi, alias qui aliquid, placeat corrupti error cupiditate accusantium asperiores corporis ipsam culpa esse odio quas? Reprehenderit, soluta sapiente cumque repellat voluptatum sint saepe nulla ipsa magni perspiciatis odio. Itaque enim ab incidunt consequatur cupiditate molestiae quis placeat iure ratione necessitatibus, dignissimos blanditiis? Modi, voluptate nulla voluptatum numquam reprehenderit animi aspernatur. Ipsa nihil quis fugit officia molestias molestiae modi libero, iure facere temporibus harum nulla expedita aliquid unde dolore rem omnis asperiores dolores mollitia, voluptates hic deserunt incidunt. Quos pariatur libero voluptate sequi dolores quaerat nesciunt, non ipsam ipsum a suscipit enim optio at, repellendus vero dolorem animi nulla?
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- watch 5 modal close -->
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
