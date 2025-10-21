@@ -1,0 +1,9 @@
+h1{
+    color: maroon; background-color:seagreen; font-style: italic;
+}
+h2{
+    color: black; background-color:hotpink; font-style:unset;
+  }
+  p{
+    color: red; background-color: cyan; font-size:x-large;
+  }
