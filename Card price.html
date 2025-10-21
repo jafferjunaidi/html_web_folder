@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Card price</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="card border border-info border-5">
+                <img src="/Images/watch 1.jpg" class="card-img-top img-fluid" style="height: 320px;" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Classic Men Watch</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-info" id="a">Show price</a>
+                  <p class="fw-bold text-danger mt-2" id="sp"></p>
+                </div>
+              </div>
+        </div>
+        <div class="col"></div>
+        <div class="col"></div>
+    </div>
+
+  </div>
+
+
+
+<script src="./jQ/jquery-3.6.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('#a').click(function(){
+    $('#sp').html("1200/- PKR")
+ })
+
+ })
+</script>
+</body>
+</html>
