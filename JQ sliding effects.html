@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide effects</title>
+</head>
+<body>
+    <img src="/Images/watch 5.jpg" alt="" id="watch" height="300">
+    <br>
+    <button id="su">Slide up</button>
+    <button id="sd">Slide down</button>
+    <button id="st">Slide Toggle</button>
+    <script src="/jQ/jquery-3.6.3.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+        $('#su').click(function(){
+            $('#watch').slideUp(4000)
+        })
+
+            $('#sd').click(function(){
+                $('#watch').slideDown(4000)
+            })
+
+        $('#st').click(function(){
+                $('#watch').slideToggle(4000)
+            })
+        })
+
+    </script>
+</body>
+</html>
