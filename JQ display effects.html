@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display effects</title>
+</head>
+<body>
+    <h1 id="heading1" class="display-1 fw-bold text-center text-danger">We are learning jquery</h1>
+    <button id="h">Hide</button>
+    <button id="s">Show</button>
+    <button id="t">Toggle</button>
+    <script src="/jQ/jquery-3.6.3.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+        $('#h').click(function(){
+            $('#heading1').hide(4000)
+        })
+
+            $('#s').click(function(){
+                $('#heading1').show(4000)
+            })
+
+        $('#t').click(function(){
+                $('#heading1').toggle(4000)
+            })
+        })
+
+    </script>
+</body>
+</html>
