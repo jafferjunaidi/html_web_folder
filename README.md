@@ -1,2 +1,2 @@
-# Hello world this all are html practice files.
+# Hello world this all are HTML practice files.
 
