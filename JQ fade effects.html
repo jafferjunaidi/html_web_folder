@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade effects</title>
+</head>
+<body>
+    <img src="/Images/Apple2.jpg" alt="" id="Mobile" height="300">
+    <br>
+    <button id="fo">Fade out</button>
+    <button id="fi">Fade in</button>
+    <button id="fadetoggle">Fade Toggle</button>
+    <button id="fadeto">Fade To</button>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script> 
+           <!--  ^ Web link file works only with internet-->
+    <script>
+        $(document).ready(function(){
+
+        $('#fo').click(function(){
+            $('#Mobile').fadeOut(4000)
+        })
+
+            $('#fi').click(function(){
+                $('#Mobile').fadeIn(4000)
+            })
+
+        $('#fadetoggle').click(function(){
+                $('#Mobile').fadeToggle(4000)
+            })
+
+            $('#fadeto').click(function(){
+                $('#Mobile').fadeTo(4000,0.2)
+            })
+            
+        })
+
+    </script>
+</body>
+</html>
